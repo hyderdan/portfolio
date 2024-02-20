@@ -1,0 +1,309 @@
+body {
+    overflow-y: visible;
+    position: relative;
+    height: unset;
+    font-family: "Euclid Circular A", "Poppins";
+    color: white;
+    text-align: center;
+  }
+  .Maindiv,
+  body {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  .container{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:  #221d2d;
+  }
+  .description{
+    background-color:  #221d2d;
+    width: 100%;
+  }
+  .about1{
+    width: 100%;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    transition: all 0.4s ease;  
+
+  }
+  .about1 p{
+    color: orangered;
+    font-size: 16px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .banner h2,
+  .footer h2 {
+    margin: 20px 0;
+  }
+  
+  nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 24px 0 16px; */
+    background: transparent;
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  }
+  .navitem {
+    display: flex;
+    /* column-gap: 40px; */
+    align-items: center;
+    justify-content: top;
+    list-style: none;
+  
+  }
+  .navitem li{
+    /* background-color: red; */
+    margin-left: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+  }
+    /* {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+   
+  } */
+  
+  nav img {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 80px;
+  }
+  
+  
+  h2 {
+    margin: 50px 0 20px;
+  }
+  
+  p {
+    opacity: 0.66;
+    font-size: 16px;
+  }
+  
+  .banner {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    gap: 30px;
+    justify-content: left;
+    place-items: left;
+    background-color:  #221d2d;
+
+  }/* fallback for old browsers */
+    
+  .banner1{
+   width: 80%;
+    height: 100%;
+    margin-left: -80px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: nowrap;
+    background-color:  #221d2d;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+      }
+      .banner1 h2{
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: -400px;
+        margin-left: 100px;
+        font-size: 50px;
+        transition: all 0.4s ease;  
+      }
+      .banner1 h1{
+        
+        width: 100%;
+        font-family: Fantasy;
+        margin-top: 00px;
+        margin-left:-300px;
+        font-size: 60px;
+        transition: all 0.4s ease;  
+      }
+      .banner1 p{
+        position: absolute;
+        margin-left: -500px;
+        margin-top: 600px;
+        font-size: 20px;
+        transition: all 0.4s ease;  
+      }
+      .resume{
+        position: absolute;
+        width: 200px;
+        height: 60px;
+        margin-top: 200px;
+        margin-left: 380px;
+        justify-content: center;
+        place-items: center;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 40px;
+        transition: all 0.4s ease;  
+      }
+      .resume h3{
+        margin-left: 55px;
+      }
+  .profileimage{
+  /* filter: brightness(80%); */
+    width: 350px;
+    height: 350px; 
+    margin-top: 80px;
+    margin-left: -180px;
+    transition: all 0.4s ease;  
+   
+  }
+  .footer {
+    background-color:  #221d2d;
+    height: auto;
+  }
+  .container  {
+    background: #fff;
+  }
+  .navbuttonopen,.navbuttonclose{
+    display: none;
+  }
+  @media screen and (max-width: 481px) {
+    .about1{
+      font-size: 15px;
+      margin-left: -100px;
+    }
+  }
+  @media screen and (max-width: 805px) {
+    .banner1 h2{
+      
+     
+      font-family: Fantasy;
+      margin-top: -400px;
+      margin-left: 50px;
+      font-size: 40px;
+    }
+    .banner1 h1{
+      
+     
+      font-family: Fantasy;
+      margin-top: 00px;
+      margin-left:-200px;
+      font-size: 50px;
+    }
+    .profileimage{
+      width:150px;
+      height: 150px;
+      margin-top: -400px;
+     
+      }
+      .resume{
+        margin-top: 350px;
+      }
+      .banner1 p{
+        margin-left: -300px;
+        margin-top: 0px;
+        font-size: 15px;
+      }
+  }
+  @media screen and (max-width: 580px) {
+    
+    .navbuttonopen,.navbuttonclose{
+        display: block;
+        margin-left: 60px;
+      }
+      .navbuttonclose{
+        display: block;
+      
+        margin-top: -55px;
+      }
+      nav.openNav .navitem {
+        left: 0;
+      }
+      nav{
+        box-shadow: none;
+      }
+       .navitem {
+        position: fixed;
+        top: -0;
+        left: -100%;
+        margin-top: -5px;
+        height: 30%;
+        max-width: 200px;
+        width: 30%;
+        padding-top: 90px;
+        row-gap: 40px;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+        /
+      }
+      .navitem li{
+        margin-left: -40px;
+        margin-top: -10px;
+      }
+      .profileimage{
+       display: none;
+       
+        }
+        .banner1 h2{
+          font-size: 30px;
+          margin-left: 200px;
+          
+        }
+        .banner1 h1{
+          font-size: 40px;
+          margin-left: 0px;
+        }
+        
+  }
+  @media screen and (max-width: 1090px) {
+  .profileimage{
+   margin-left: 80px;
+  }
+  .resume{
+    margin-top: 300px;
+  }
+  .banner1 p{
+    margin-left: -100px;
+    margin-top: 600px;
+    font-size: 15px;
+  }
+    }
+
+  
+  @media screen and (max-width: 360px) {
+    .navbuttonclose{
+        display: block;
+        margin-left: 10px;
+        transition: all 0s ease;
+      }
+  }

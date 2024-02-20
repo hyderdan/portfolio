@@ -1,0 +1,115 @@
+.about2{
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    /* margin-left: 200px; */
+    max-width: 650px;
+    padding: 50px 30px 50px 20px;
+    background-color: #121017;
+    border-radius: 24px;
+    box-shadow: 0 60px 40px rgb(0 0 0 /8%);
+
+}
+.about2 img{
+    max-width: 280px;
+    width: 35vw;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+    box-shadow: 0 60px 40px rgb(0 0 0 /8%);
+
+}
+.about2 h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+
+}
+.about2 h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.75;
+    text-align: left;   
+    color: white; 
+}
+.about2 p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.5;
+    text-align: left;
+    color: white;
+}
+.about2 a{
+    display: grid;
+    place-items: center;
+    border: 0;
+    background-color: #6939ff;
+    columns: #f8f8f8;
+    padding: 16px 26px;
+    font-size:16px;
+    border-radius: 40px;
+}
+@media (width<= 600px){
+    .about2{
+        margin: 0 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        width: 50%;
+        height: 40%;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .about2 h2{
+        margin-right: 0;
+    }
+    .about2 img{
+        margin: -100px 0 30px 0;
+        width: 100%;
+        max-width: 1000px;
+    }
+    .about2 p{
+        max-width: 360px;
+        font-size: 5px;
+        
+    }
+    .about2 a{
+        margin-top: -10px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}
+@media(width<=440px){
+    .about2 img{
+        height: 45vw;
+        width: 45vw;
+        border-radius: 50%;
+        margin-top: -140px;
+    }
+    .about2{
+        margin: 0 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        width: 50%;
+        height: 30%;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: -25px;
+    }
+}
+@media(width<=1005px){
+.about2{
+    margin-left: -50px;
+}
+}
