@@ -26,7 +26,7 @@ import resume1 from "./Files/hyder danish ps resume.pdf";
    const url=resume1;
     const link=document.createElement('a');
     link.href=url;
-    link.setAttribute('download','resume1.pdf');
+    link.setAttribute('download','hyder danish ps resume.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
