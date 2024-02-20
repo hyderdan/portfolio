@@ -52,3 +52,69 @@ margin-top: -10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
 }
+@media(width<=1030px){
+    /* .project1{
+        width: 90%;
+    } */
+    .firstpro{
+        margin-right: 300px;
+    margin-top: -20px;
+    }
+    .firstpro h5{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .firstpro p{
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .secondpro{
+        position: absolute;
+    margin-left: 350px;
+    margin-top: -60px;
+    }
+    .secondpro h5{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .secondpro p{
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+}
+@media(width<=485px){
+    .firstpro{
+        position: absolute;
+    margin-right: 200px;
+    margin-top: 20px;
+    }
+    .firstpro h5{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .firstpro p{
+        font-size: 8px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .secondpro{
+        position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+    }
+    .secondpro h5{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    .secondpro p{
+        font-size: 8px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+    }
