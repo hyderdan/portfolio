@@ -19,7 +19,7 @@ import { SiChakraui } from "react-icons/si";
 
 import{Link,animateScroll as scroll} from "react-scroll";
 import portfolioImage from "./Styles/portfolio.jpg";
-import resume1 from "./Files/resume1.pdf";
+import resume1 from "./Files/hyder danish ps resume.pdf";
  const Home=()=>{
    const [opennav, setopennav] = useState(false);
    const handledownload=()=>{
